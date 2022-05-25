@@ -13,6 +13,7 @@ section {
 h1 {
     font-family: 'EB Garamond', serif;
     font-size: 48px;
+    text-align: center;
     color: #467745;
     
   }
@@ -20,6 +21,7 @@ h1 {
   @media (max-width: 520px) {
     h1 {
       font-size: 36px;
+      text-align: left;
     }
   }
 
@@ -59,23 +61,30 @@ textarea {
 
 @media (max-width: 520px) {
     textarea {
-      width: 100% - 40px;
       margin-left: 20px;
     }
   }
 
-  .check {
+  #check {
       display: flex;
       font-family: 'EB Garamond', serif;
       border: none;
   }
 
+
 p {
     display: flex;
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
+    color: #467745;
 }
+
+@media (max-width: 520px) {
+    p {
+      margin-left: 20px;
+    }
+  }
 
 
   button {
@@ -97,7 +106,4 @@ p {
     height: 80px;
 
     padding: 50px;
-
-
-
   }
